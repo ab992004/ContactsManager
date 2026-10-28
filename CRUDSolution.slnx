@@ -2,6 +2,8 @@
   <Project Path="CRUDEx/CRUDEx.csproj" />
   <Project Path="CRUDTests/CRUDTests.csproj" />
   <Project Path="Entities/Entities.csproj" />
+  <Project Path="Repositories/Repositories.csproj" Id="076e05a9-6dd6-4e68-97dd-f16bdc6de209" />
+  <Project Path="RepositoryContracts/RepositoryContracts.csproj" Id="43125509-16e4-4b0a-ade7-98d4ede2a9ab" />
   <Project Path="ServiceContract/ServiceContract.csproj" />
   <Project Path="Services/Services.csproj" Id="63a207af-edb3-4c6c-b0f1-81fdfe334202" />
 </Solution>

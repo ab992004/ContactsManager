@@ -75,7 +75,7 @@ namespace CRUDEx.Controllers
                 new SelectListItem() { Text = temp.CountryName, Value = temp.CountryID.ToString() });
 
                 ViewBag.Errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage).ToList();
-                return View();
+                return View(personAddRequest);
             }
 
             PersonResponse personResponse = await  _personsService.AddPerson(personAddRequest);
